@@ -5,7 +5,8 @@
 ## Що вже є в шаблоні
 
 - проєкт на Vite: React, TypeScript, React Compiler, ESLint;
-- встановлені `modern-normalize`, `react-hook-form`, `zod`, `@hookform/resolvers` і `sonner`; у `src/main.tsx` підключено `modern-normalize` і глобальні стилі `src/global.css`;
+- встановлені `modern-normalize`, `react-hook-form`, `zod`, `@hookform/resolvers` і `sonner`; у `src/main.tsx` підключено `modern-normalize` і глобальні стилі `src/index.css`;
+- аліас `@/` для папки `src`: імпорти з інших папок пиши через `@/`, файли з тієї ж папки — через `./`;
 - компонент `App` у `src/components/App/App.tsx`;
 - готові стилі всіх компонентів у файлах `.module.css` у папках `src/components`;
 - файл `.env.example` з адресою бекенду; `.env` уже додано в `.gitignore`.
